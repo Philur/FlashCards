@@ -214,6 +214,26 @@ namespace FlashCardsTests
         }
 
         [TestMethod()]
+        public void BuildEquationTest3()
+        {
+            FlashCardsController target = new FlashCardsController();
+            target.Number1 = 100.0;
+            target.Number2 = 50.0;
+
+            target.WorkOn = "A";
+            Assert.AreEqual(target.BuildEquation(), "100+50");
+
+            target.WorkOn = "S";
+            Assert.AreEqual(target.BuildEquation(), "100-50");
+
+            target.WorkOn = "M";
+            Assert.AreEqual(target.BuildEquation(), "100*50");
+
+            target.WorkOn = "D";
+            Assert.AreEqual(target.BuildEquation(), "100/50");
+        }
+
+        [TestMethod()]
         public void FlashCardsControllerConstructorTest()
         {
             FlashCardsController target = new FlashCardsController();

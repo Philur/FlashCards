@@ -11,7 +11,6 @@ namespace FlashCards
         //public string User;
         private string mUser;
 
-
         private double mNumber1;
         private double mNumber2;
 
@@ -19,7 +18,6 @@ namespace FlashCards
         private int mTries;
 
         private string mWorkOn;
-
 
         public void GenerateNumbers()
         {
@@ -32,7 +30,6 @@ namespace FlashCards
 
         public string BuildEquation()
         {
-
             switch (this.WorkOn)
             {
                 case "A":
@@ -43,7 +40,6 @@ namespace FlashCards
                     return mNumber1.ToString() + "*" + mNumber2.ToString();
                 default:
                     return mNumber1.ToString() + "/" + mNumber2.ToString();
-
             }
         }
 
@@ -80,7 +76,6 @@ namespace FlashCards
             {
                 return false;
             }
-
         }
 
         public int Correct
@@ -90,7 +85,6 @@ namespace FlashCards
                 return mCorrect;
             }
         }
-
 
         public int Tries
         {
@@ -124,7 +118,6 @@ namespace FlashCards
                 else
                     throw new ArgumentException
                         ("Must enter Add, Subtract, Multiply or Divide");
-
             }
         }
 
@@ -140,7 +133,6 @@ namespace FlashCards
             mUser = value;
             }
         }
-
 
         // Added for unit testing exercise
         public double Number1
