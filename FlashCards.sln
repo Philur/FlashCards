@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2AED0826-1736-4018-988D-9F47AF25D190}"
+	ProjectSection(SolutionItems) = preProject
+		FlashCards.vsmdi = FlashCards.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCards", "FlashCards\FlashCards.csproj", "{F7B3A0D5-6B8D-4227-A127-1FE8D5DFD45E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashCardsTests", "FlashCardsTests\FlashCardsTests.csproj", "{2A65AD98-58FB-460B-9C4E-F6F88099251A}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FlashCards.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7B3A0D5-6B8D-4227-A127-1FE8D5DFD45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B3A0D5-6B8D-4227-A127-1FE8D5DFD45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B3A0D5-6B8D-4227-A127-1FE8D5DFD45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B3A0D5-6B8D-4227-A127-1FE8D5DFD45E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A65AD98-58FB-460B-9C4E-F6F88099251A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A65AD98-58FB-460B-9C4E-F6F88099251A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A65AD98-58FB-460B-9C4E-F6F88099251A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A65AD98-58FB-460B-9C4E-F6F88099251A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

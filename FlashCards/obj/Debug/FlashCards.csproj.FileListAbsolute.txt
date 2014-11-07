@@ -1,0 +1,39 @@
+C:\Course502\CS\Solutions\Ex 2.4\FlashCards\FlashCards\obj\Debug\FlashCards.exe
+C:\Course502\CS\Solutions\Ex 2.4\FlashCards\FlashCards\obj\Debug\FlashCards.pdb
+C:\Course502\CS\Solutions\Ex 2.4\FlashCards\FlashCards\bin\Debug\FlashCards.exe
+C:\Course502\CS\Solutions\Ex 2.4\FlashCards\FlashCards\bin\Debug\FlashCards.pdb
+C:\Course502\CS\Solutions\Ex 2.4\FlashCards\FlashCards\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Ex 2.5\FlashCards\FlashCards\bin\Debug\FlashCards.exe
+C:\Users\Student\Desktop\Ex 2.5\FlashCards\FlashCards\bin\Debug\FlashCards.pdb
+C:\Users\Student\Desktop\Ex 2.5\FlashCards\FlashCards\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Student\Desktop\Ex 2.5\FlashCards\FlashCards\obj\Debug\FlashCards.exe
+C:\Users\Student\Desktop\Ex 2.5\FlashCards\FlashCards\obj\Debug\FlashCards.pdb
+C:\Users\Student\Desktop\CS Exercise 2.5\Ex 2.5\FlashCards\FlashCards\obj\Debug\FlashCards.exe
+C:\Users\Student\Desktop\CS Exercise 2.5\Ex 2.5\FlashCards\FlashCards\obj\Debug\FlashCards.pdb
+C:\Users\Student\Desktop\CS Exercise 2.5\Ex 2.5\FlashCards\FlashCards\bin\Debug\FlashCards.exe
+C:\Users\Student\Desktop\CS Exercise 2.5\Ex 2.5\FlashCards\FlashCards\bin\Debug\FlashCards.pdb
+C:\Users\Student\Desktop\CS Exercise 2.5\Ex 2.5\FlashCards\FlashCards\obj\Debug\ResolveAssemblyReference.cache
+C:\Course502\CS\Solutions\Ex 2.5\FlashCards\FlashCards\obj\Debug\FlashCards.exe
+C:\Course502\CS\Solutions\Ex 2.5\FlashCards\FlashCards\obj\Debug\FlashCards.pdb
+C:\Course502\CS\Solutions\Ex 2.5\FlashCards\FlashCards\bin\Debug\FlashCards.exe
+C:\Course502\CS\Solutions\Ex 2.5\FlashCards\FlashCards\bin\Debug\FlashCards.pdb
+C:\Course502\CS\Solutions\Ex 2.5\FlashCards\FlashCards\obj\Debug\ResolveAssemblyReference.cache
+C:\Course502\CS\Solutions\Ex 2.5\FlashCards\FlashCards\bin\Debug\FlashCards.exe.config
+C:\Course502\VS Test Demos\CS\FlashCards\FlashCards\bin\Debug\FlashCards.exe.config
+C:\Course502\VS Test Demos\CS\FlashCards\FlashCards\obj\Debug\FlashCards.exe
+C:\Course502\VS Test Demos\CS\FlashCards\FlashCards\obj\Debug\FlashCards.pdb
+C:\Course502\VS Test Demos\CS\FlashCards\FlashCards\bin\Debug\FlashCards.exe
+C:\Course502\VS Test Demos\CS\FlashCards\FlashCards\bin\Debug\FlashCards.pdb
+C:\Course502\VS Test Demos\CS\FlashCards\FlashCards\obj\Debug\ResolveAssemblyReference.cache
+C:\Course502\CS\VS Test Demo\FlashCards\bin\Debug\FlashCards.exe.config
+C:\Course502\CS\VS Test Demo\FlashCards\obj\Debug\FlashCards.exe
+C:\Course502\CS\VS Test Demo\FlashCards\obj\Debug\FlashCards.pdb
+C:\Course502\CS\VS Test Demo\FlashCards\bin\Debug\FlashCards.exe
+C:\Course502\CS\VS Test Demo\FlashCards\bin\Debug\FlashCards.pdb
+C:\Course502\CS\VS Test Demo\FlashCards\obj\Debug\ResolveAssemblyReference.cache
+C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.exe.config
+C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.exe
+C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.pdb
+C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.csprojResolveAssemblyReference.cache
+C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.exe
+C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.pdb

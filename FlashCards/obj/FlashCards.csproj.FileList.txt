@@ -1,0 +1,5 @@
+bin\Debug\FlashCards.exe
+bin\Debug\FlashCards.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\FlashCards.exe
+obj\Debug\FlashCards.pdb
