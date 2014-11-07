@@ -40,3 +40,5 @@ C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCards.pdb
 C:\GitHub_Archive\FlashCards\FlashCardsTests\obj\Debug\FlashCardsTests.csprojResolveAssemblyReference.cache
 C:\GitHub_Archive\FlashCards\FlashCardsTests\obj\Debug\FlashCardsTests.dll
 C:\GitHub_Archive\FlashCards\FlashCardsTests\obj\Debug\FlashCardsTests.pdb
+C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCardsTests.dll.CodeAnalysisLog.xml
+C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCardsTests.dll.lastcodeanalysissucceeded

@@ -176,12 +176,12 @@ namespace FlashCardsTests
         [TestMethod()]
         public void BuildEquationTest()
         {
-            FlashCardsController target = new FlashCardsController(); 
+            FlashCardsController target = new FlashCardsController();
             target.Number1 = 10.0;
             target.Number2 = 5.0;
-           
+
             target.WorkOn = "A";
-            Assert.AreEqual(target.BuildEquation(),  "10+5");
+            Assert.AreEqual(target.BuildEquation(), "10+5");
 
             target.WorkOn = "S";
             Assert.AreEqual(target.BuildEquation(), "10-5");
@@ -191,6 +191,26 @@ namespace FlashCardsTests
 
             target.WorkOn = "D";
             Assert.AreEqual(target.BuildEquation(), "10/5");
+        }
+        
+        [TestMethod()]
+        public void BuildEquationTest2()
+        {
+            FlashCardsController target = new FlashCardsController(); 
+            target.Number1 = 100.0;
+            target.Number2 = 50.0;
+           
+            target.WorkOn = "A";
+            Assert.AreEqual(target.BuildEquation(),  "100+50");
+
+            target.WorkOn = "S";
+            Assert.AreEqual(target.BuildEquation(), "100-50");
+
+            target.WorkOn = "M";
+            Assert.AreEqual(target.BuildEquation(), "100*50");
+
+            target.WorkOn = "D";
+            Assert.AreEqual(target.BuildEquation(), "100/50");
         }
 
         [TestMethod()]

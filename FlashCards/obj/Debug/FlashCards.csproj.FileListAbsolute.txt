@@ -34,6 +34,7 @@ C:\Course502\CS\VS Test Demo\FlashCards\obj\Debug\ResolveAssemblyReference.cache
 C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.exe.config
 C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.exe
 C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.pdb
-C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.csprojResolveAssemblyReference.cache
 C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.exe
 C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.pdb
+C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.exe.CodeAnalysisLog.xml
+C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.exe.lastcodeanalysissucceeded
