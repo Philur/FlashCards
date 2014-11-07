@@ -20,7 +20,6 @@ namespace FlashCards
             Console.WriteLine("Hello " + game.User);
 
             do{
-
                 game.GenerateNumbers();
 
                 bool inputValid = false;
@@ -72,7 +71,6 @@ namespace FlashCards
             } while (!input.ToUpper().StartsWith("N"));
 
             //Console.ReadLine();
-
         }
     }
 }

@@ -2,12 +2,10 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace FlashCardsTests
 {
-    
-    
+        
     [TestClass()]
     public class FlashCardsControllerTest
     {
-
         [TestMethod()]
         public void WorkOnTest()
         {
