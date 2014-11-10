@@ -19,7 +19,8 @@ namespace FlashCards
             game.User = Console.ReadLine();
             Console.WriteLine("Hello " + game.User);
 
-            do{
+            do
+            {
                 game.GenerateNumbers();
 
                 bool inputValid = false;
@@ -37,7 +38,6 @@ namespace FlashCards
                         Console.WriteLine(ex.Message);
                     }
                 } while (inputValid == false);
-
 
                 Console.WriteLine(game.WorkOn);
 
@@ -60,17 +60,14 @@ namespace FlashCards
                     Console.WriteLine("Sorry, wrong answer:(");
                 }
 
-                Console.WriteLine(
-                String.Format("Your score is {0} out of {1} for {2}%",
-                game.Correct, game.Tries, game.PercentCorrect)
-                );
+                Console.WriteLine(String.Format("Your score is {0} out of {1} for {2}%", game.Correct, game.Tries, game.PercentCorrect));
 
                 Console.WriteLine("Do you want to play again (Y or N)?");
                 input = Console.ReadLine();
 
             } while (!input.ToUpper().StartsWith("N"));
 
-            //Console.ReadLine();
+            ////Console.ReadLine();
         }
     }
 }
