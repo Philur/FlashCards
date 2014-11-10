@@ -38,3 +38,4 @@ C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.exe.CodeAnalysisLog
 C:\GitHub_Archive\FlashCards\FlashCards\bin\Debug\FlashCards.exe.lastcodeanalysissucceeded
 C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.exe
 C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.pdb
+C:\GitHub_Archive\FlashCards\FlashCards\obj\Debug\FlashCards.csprojResolveAssemblyReference.cache

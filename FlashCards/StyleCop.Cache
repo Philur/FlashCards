@@ -270,7 +270,7 @@
     <timestamps>
       <styleCop>2014-04-01 11:18:24.000</styleCop>
       <settingsFile>2012-09-27 22:03:32.000</settingsFile>
-      <sourceFile>2014-11-10 10:58:39.062</sourceFile>
+      <sourceFile>2014-11-10 10:59:04.099</sourceFile>
       <parser>2014-04-01 11:18:24.000</parser>
       <StyleCop.CSharp.DocumentationRules>2014-04-01 11:18:24.000</StyleCop.CSharp.DocumentationRules>
       <StyleCop.CSharp.DocumentationRules.FilesHashCode>-266202972</StyleCop.CSharp.DocumentationRules.FilesHashCode>
@@ -288,34 +288,39 @@
       <StyleCop.CSharp.SpacingRules.FilesHashCode>0</StyleCop.CSharp.SpacingRules.FilesHashCode>
     </timestamps>
     <violations>
+      <violation namespace="StyleCop.CSharp.DocumentationRules" rule="FileHeaderMustShowCopyright" ruleCheckId="SA1634">
+        <context>The file header must contain a copyright tag.</context>
+        <line>1</line>
+        <warning>False</warning>
+      </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The class must have a documentation header.</context>
-        <line>16</line>
+        <line>11</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.MaintainabilityRules" rule="AccessModifierMustBeDeclared" ruleCheckId="SA1400">
         <context>The class must have an access modifier.</context>
-        <line>16</line>
+        <line>11</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.DocumentationRules" rule="ElementsMustBeDocumented" ruleCheckId="SA1600">
         <context>The method must have a documentation header.</context>
-        <line>18</line>
+        <line>13</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
         <context>If a statement spans multiple lines, the closing curly bracket must be placed on its own line.</context>
-        <line>75</line>
+        <line>70</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
         <context>If a statement spans multiple lines, the closing curly bracket must be placed on its own line.</context>
-        <line>48</line>
+        <line>43</line>
         <warning>False</warning>
       </violation>
       <violation namespace="StyleCop.CSharp.LayoutRules" rule="CurlyBracketsForMultiLineStatementsMustNotShareLine" ruleCheckId="SA1500">
         <context>If a statement spans multiple lines, the closing curly bracket must be placed on its own line.</context>
-        <line>60</line>
+        <line>55</line>
         <warning>False</warning>
       </violation>
     </violations>
