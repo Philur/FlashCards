@@ -35,10 +35,10 @@ C:\Course502\CS\VS Test Demo\FlashCardsTests\obj\Debug\FlashCardsTests.dll
 C:\Course502\CS\VS Test Demo\FlashCardsTests\obj\Debug\FlashCardsTests.pdb
 C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCardsTests.dll
 C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCardsTests.pdb
+C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCardsTests.dll.CodeAnalysisLog.xml
+C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCardsTests.dll.lastcodeanalysissucceeded
 C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCards.exe
 C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCards.pdb
 C:\GitHub_Archive\FlashCards\FlashCardsTests\obj\Debug\FlashCardsTests.csprojResolveAssemblyReference.cache
 C:\GitHub_Archive\FlashCards\FlashCardsTests\obj\Debug\FlashCardsTests.dll
 C:\GitHub_Archive\FlashCards\FlashCardsTests\obj\Debug\FlashCardsTests.pdb
-C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCardsTests.dll.CodeAnalysisLog.xml
-C:\GitHub_Archive\FlashCards\FlashCardsTests\bin\Debug\FlashCardsTests.dll.lastcodeanalysissucceeded

@@ -8,7 +8,7 @@ namespace FlashCards
     {
         // Added in Bonus
 
-        //public string User;
+        // public string User;
         private string mUser;
 
         private double mNumber1;
@@ -24,8 +24,8 @@ namespace FlashCards
             Random randomNumber =
                 new Random(DateTime.Now.Millisecond);
 
-            mNumber1 = randomNumber.Next(0, 99);
-            mNumber2 = randomNumber.Next(0, 99);
+            this.mNumber1 = randomNumber.Next(0, 99);
+            this.mNumber2 = randomNumber.Next(0, 99);
         }
 
         public string BuildEquation()
@@ -33,13 +33,13 @@ namespace FlashCards
             switch (this.WorkOn)
             {
                 case "A":
-                    return mNumber1.ToString() + "+" + mNumber2.ToString();
+                    return this.mNumber1.ToString() + "+" + this.mNumber2.ToString();
                 case "S":
-                    return mNumber1.ToString() + "-" + mNumber2.ToString();
+                    return this.mNumber1.ToString() + "-" + this.mNumber2.ToString();
                 case "M":
-                    return mNumber1.ToString() + "*" + mNumber2.ToString();
+                    return this.mNumber1.ToString() + "*" + this.mNumber2.ToString();
                 default:
-                    return mNumber1.ToString() + "/" + mNumber2.ToString();
+                    return this.mNumber1.ToString() + "/" + this.mNumber2.ToString();
             }
         }
 
@@ -49,27 +49,26 @@ namespace FlashCards
 
             if (this.WorkOn == "A")
             {
-                correctAnswer = mNumber1 + mNumber2;
+                correctAnswer = this.mNumber1 + this.mNumber2;
             }
             else if (this.WorkOn == "S")
             {
-                correctAnswer = mNumber1 - mNumber2;
+                correctAnswer = this.mNumber1 - this.mNumber2;
             }
             else if (this.WorkOn == "M")
             {
-                correctAnswer = mNumber1 * mNumber2;
+                correctAnswer = this.mNumber1 * this.mNumber2;
             }
-
             else
             {
-                correctAnswer = mNumber1 / mNumber2;
+                correctAnswer = this.mNumber1 / this.mNumber2;
             }
 
-            mTries += 1;
+            this.mTries += 1;
 
             if (correctAnswer == answer)
             {
-                mCorrect += 1;
+                this.mCorrect += 1;
                 return true;
             }
             else
@@ -82,7 +81,7 @@ namespace FlashCards
         {
             get
             {
-                return mCorrect;
+                return this.mCorrect;
             }
         }
 
@@ -90,7 +89,7 @@ namespace FlashCards
         {
             get
             {
-                return mTries;
+                return this.mTries;
             }
         }
 
@@ -98,7 +97,7 @@ namespace FlashCards
         {
             get
             {
-                return ((double)Correct / (double)Tries) * 100.0;
+                return ((double)this.Correct / (double)this.Tries) * 100.0;
             }
         }
 
@@ -106,18 +105,17 @@ namespace FlashCards
         {
             get
             {
-                return mWorkOn;
+                return this.mWorkOn;
             }
+            
             set
             {
                 string input = value.ToUpper().Substring(0, 1);
 
-                if (input == "A" || input == "S" ||
-                    input == "M" || input == "D")
-                    mWorkOn = input;
+                if (input == "A" || input == "S" || input == "M" || input == "D")
+                    this.mWorkOn = input;
                 else
-                    throw new ArgumentException
-                        ("Must enter Add, Subtract, Multiply or Divide");
+                    throw new ArgumentException("Must enter Add, Subtract, Multiply or Divide");
             }
         }
 
@@ -126,11 +124,12 @@ namespace FlashCards
         {
             get
             {
-                return mUser;
+                return this.mUser;
             }
+            
             set
             {
-            mUser = value;
+                this.mUser = value;
             }
         }
 
@@ -139,11 +138,12 @@ namespace FlashCards
         {
             get
             {
-                return mNumber1;
+                return this.mNumber1;
             }
+
             set
             {
-                mNumber1 = value;
+                this.mNumber1 = value;
             }
         }
 
@@ -151,13 +151,13 @@ namespace FlashCards
         {
             get
             {
-                return mNumber2;
+                return this.mNumber2;
             }
+
             set
             {
-                mNumber2 = value;
+                this.mNumber2 = value;
             }
         }
-
     }
 }

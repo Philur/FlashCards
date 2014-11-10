@@ -1,9 +1,13 @@
+// using System;
+// using System.Collections.Generic;
+// using System.Text;
+
+namespace FlashCards
+{
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FlashCards
-{
     class Startup
     {
         public static void Main()
@@ -26,8 +30,7 @@ namespace FlashCards
                 bool inputValid = false;
                 do
                 {
-                    Console.WriteLine
-                       ("Do you want to (A)dd, (S)ubtract, (M)ultiply or (D)ivide?");
+                    Console.WriteLine("Do you want to (A)dd, (S)ubtract, (M)ultiply or (D)ivide?");
                     try
                     {
                         game.WorkOn = Console.ReadLine();
@@ -45,11 +48,11 @@ namespace FlashCards
                 {
                     Console.WriteLine(game.BuildEquation());
                     input = Console.ReadLine();
-                    if (Double.TryParse(input, out answer) == false)
+                    if (double.TryParse(input, out answer) == false)
                     {
                         Console.WriteLine("Invalid input, try again.");
                     }
-                } while (Double.TryParse(input, out answer) == false);
+                } while (double.TryParse(input, out answer) == false);
 
                 if (game.CheckAnswer(answer))
                 {
@@ -60,14 +63,13 @@ namespace FlashCards
                     Console.WriteLine("Sorry, wrong answer:(");
                 }
 
-                Console.WriteLine(String.Format("Your score is {0} out of {1} for {2}%", game.Correct, game.Tries, game.PercentCorrect));
+                Console.WriteLine(string.Format("Your score is {0} out of {1} for {2}%", game.Correct, game.Tries, game.PercentCorrect));
 
                 Console.WriteLine("Do you want to play again (Y or N)?");
                 input = Console.ReadLine();
-
             } while (!input.ToUpper().StartsWith("N"));
 
-            ////Console.ReadLine();
+            // Console.ReadLine();
         }
     }
 }
